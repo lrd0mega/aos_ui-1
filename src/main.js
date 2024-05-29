@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('scroll', () => {
     const header = document.querySelector('.header');
     const scrollPosition = window.scrollY;
-    header.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
+    header.style.backgroundPositionY = ${scrollPosition * 0.5}px;
 });
